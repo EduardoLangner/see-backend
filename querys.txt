@@ -1,0 +1,70 @@
+create table genre (
+    id serial primary key not null,
+    name varchar(255) not null
+);
+
+create table movie (
+    id serial primary key not null,
+    title varchar(50) not null,
+    description varchar(250) not null,
+    genre_id serial not null,
+    foreign key (genre_id) references genre (id),
+    parental_rating varchar(10) not null,
+    evaluation integer not null,
+    duration varchar(10) not null,
+    year integer not null,
+    comment varchar(250)
+);
+
+create table serie (
+    id serial primary key not null,
+    title varchar(50) not null,
+    description varchar(250) not null,
+    genre_id serial not null,
+    foreign key (genre_id) references genre (id),
+    parental_rating varchar(10) not null,
+    evaluation integer not null,
+    year integer not null, 
+    seasonQuantity integer not null
+);
+
+create table episode (
+    id serial primary key not null,
+    title varchar(50) not null,
+    duration varchar(10) not null,
+    serie_id serial not null,
+    foreign key (serie_id) references serie (id),
+    season integer not null,
+    comment varchar(250)
+);
+
+drop table episode;
+drop table serie;
+drop table movie;
+drop table genre;
+
+select * from genre;
+select * from movie;
+select * from serie;
+select * from episode;
+
+insert into genre (name) values ('Ação');
+insert into genre (name) values ('Aventura');
+insert into genre (name) values ('Comédia');
+insert into genre (name) values ('Drama');
+insert into genre (name) values ('Fantasia');
+insert into genre (name) values ('Ficção Científica');
+insert into genre (name) values ('Guerra');
+insert into genre (name) values ('Romance');
+insert into genre (name) values ('Suspense');
+insert into genre (name) values ('Terror');
+
+insert into movie (title, description, genre_id, parental_rating, evaluation, duration, year, comment) values ('O Poderoso Chefão', 'O Poderoso Chefão é um filme de ação de ficção científica de 2014, baseado no livro de histórias da saga da mesma nome. O filme é dirigido por Rodrigo Alfieri, e estrelou por João Carlos Cabral, Rodrigo Fraga, e Fernando Masanori. O filme é o primeiro filme de ação de ficção científica do Brasil, e foi o primeiro filme de ação de ficção científica a ser estrelado em um único país.', 1, '12', 10, '1h 30min', 2014);
+insert into movie (title, description, genre_id, parental_rating, evaluation, duration, year, comment) values ('O Poderoso Chefão 2: O Retorno do Chefão', 'O Poderoso Chefão 2: O Retorno do Chefão é um filme de ação de ficção científica de 2015, baseado no livro de histórias da saga da mesma nome. O filme é dirigido por Rodrigo Alfieri, e estrelou por João Carlos Cabral, Rodrigo Fraga, e Fernando Masanori. O filme é o segundo filme de ação de ficção científica do Brasil, e foi o segundo filme de ação de ficção científica a ser estrelado em um único país.', 2, '12', 10, '1h 30min', 2015);
+insert into movie (title, description, genre_id, parental_rating, evaluation, duration, year, comment) values ('O Poderoso Chefão 3: O Fim do Universo', 'O Poderoso Chefão 3: O Fim do Universo é um filme de ação de ficção científica de 2016, baseado no livro de histórias da saga da mesma nome. O filme é dirigido por Rodrigo Alfieri, e estrelou por João Carlos Cabral, Rodrigo Fraga, e Fernando Masanori. O filme é o terceiro filme de ação de ficção científica do Brasil, e foi o terceiro filme de ação de ficção científica a ser estrelado em um único país.', 3, '12', 10, '1h 30min', 2016);
+
+insert into serie (title, description, genre_id, parental_rating, evaluation, duration, year, seasonQuantity) values ('The Big Bang Theory', 'The Big Bang Theory é uma série de televisão de ficção científica de 2007, baseada no livro de histórias da saga da mesma nome. A série é dirigida por Chuck Fife, e estrelou por John Krasinski, John Oliver, e Kaley Cuoco. A série é a primeira série de ficção científica do Brasil, e foi a primeira série de ficção científica a ser estrelada em um único país.', 1, '12', 10, 2007, 7);
+insert into serie (title, description, genre_id, parental_rating, evaluation, duration, year, seasonQuantity) values ('Supernatural', 'Supernatural é uma série de televisão de ficção científica de 2005, baseada no livro de histórias da saga da mesma nome. A série é dirigida por Stephen Merchant, e estrelou por Sam MacFarlane, J.K. Simmons, and Kaley Cuoco. A série é a segunda série de ficção científica do Brasil, e foi a segunda série de ficção científica a ser estrelada em um único país.', 2, '12', 10, 2005, 10);
+insert into serie (title, description, genre_id, parental_rating, evaluation, duration, year, seasonQuantity) values ('Dark', 'Dark é uma série de televisão de ficção científica de 2008, baseada no livro de histórias da saga da mesma nome. A série é dirigida por Stephen Merchant, e estrelou por Sam MacFarlane, J.K. Simmons, and Kaley Cuoco. A série é a terceira série de ficção científica do Brasil, e foi a terceira série de ficção científica a ser estrelada em um único país.', 3, '12', 10, 2008, 10);
+
+insert into episode (title, duration, serie_id, season, comment) values ('The Big Bang Theory, Temporada 1, Episódio 1', '1h 30min', 1, 1);

@@ -1,0 +1,10 @@
+npm init -y (configura o package.json com informações padrão)
+npm install --save express (instala o express) gerando o package-lock.json e a pasta node_modules que é o diretório onde todos os módulos do ficam instalados
+npm install --save-dev nodemon (instala o nodemon) que é um servidor que monitora o código e reinicia o servidor quando houver alterações
+npm install --save morgan (instala o morgan) que é um módulo que mostra as requisições feitas pelo usuário no console
+npm install --save body-parser (instala o body-parser) que é um módulo que permite que o express interpretar o corpo das requisições
+npm install --save postgresql (instala o postgresql) 
+npm install dotenv (instala o dotenv) que é um módulo que permite que o express interpretar o arquivo .env
+
+docker-compose up -d dentro do arquivo docker-compose.yml (inicia o servidor)
+
