@@ -10,3 +10,5 @@ docker-compose up -d dentro do arquivo docker-compose.yml (inicia o servidor)
 
 npm i --save sequelize (instala o sequelize) que é um módulo que permite que o sequelize se conecte ao banco de dados
 npx sequelize-cli init (cria o arquivo de configuração do sequelize) e o arquivo de configuração é o sequelize.config.js
+
+Se eu não tiver o banco criado, posso usar o comando npx sequelize-cli db:create (cria o banco de dados)

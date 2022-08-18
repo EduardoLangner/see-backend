@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '../../../.env' }) // Load .env file
+require('dotenv').config() // Load .env file
 const {Pool} = require('pg') // Load pg module and Pool class
 // const {DB_USER, DB_PASSWORD, DB_NAME, DB_HOST, DB_PORT} = process.env    
 
