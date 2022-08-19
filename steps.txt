@@ -8,5 +8,6 @@ npm install dotenv (instala o dotenv) que é um módulo que permite que o expres
 
 docker-compose up -d dentro do arquivo docker-compose.yml (inicia o servidor)
 
-npm i --save sequelize (instala o sequelize) que é um módulo que permite que o sequelize se conecte ao banco de dados
-npx sequelize-cli init (cria o arquivo de configuração do sequelize) e o arquivo de configuração é o sequelize.config.js
+npm install typeorm --save (instala o typeorm) que é um módulo que permite que o typeorm seja usado no projeto
+npm install reflect-metadata --save (instala o reflect-metadata) 
+npm install pg --save (instala o pg) 
