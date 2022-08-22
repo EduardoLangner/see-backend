@@ -5,9 +5,6 @@ npm install --save morgan (instala o morgan) que é um módulo que mostra as req
 npm install --save body-parser (instala o body-parser) que é um módulo que permite que o express interpretar o corpo das requisições
 npm install --save postgresql (instala o postgresql) 
 npm install dotenv (instala o dotenv) que é um módulo que permite que o express interpretar o arquivo .env
-
-docker-compose up -d dentro do arquivo docker-compose.yml (inicia o servidor)
-
 npm install typeorm --save (instala o typeorm) que é um módulo que permite que o typeorm seja usado no projeto
 npm install reflect-metadata --save (instala o reflect-metadata) 
 npm install pg --save (instala o pg) 
