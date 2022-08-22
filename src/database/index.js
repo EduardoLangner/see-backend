@@ -1,23 +1,15 @@
-require('dotenv').config()
-const DataSource = require('typeorm').DataSource
+const dotenv = require('dotenv').config()
+const Sequelize  = require('sequelize')
 
-const AppDataSource = new DataSource({
-    type: process.env.TYPEORM_CONNECTION,
-    host: process.env.TYPEORM_HOST,
-    port: process.env.TYPEORM_PORT,
-    username: process.env.TYPEORM_USERNAME,
-    password: process.env.TYPEORM_PASSWORD,
-    database: process.env.TYPEORM_DATABASE,
-    synchronize: true,
-    logging: false
-})
+const connection = new Sequelize(
 
+    process.env.POSTGRES_HOST,
+    process.env.POSTGRES_PORT,
+    process.env.POSTGRES_USERNAME,
+    process.env.POSTGRES_PASSWORD,
+    process.env.POSTGRES_DATABASE,
+    process.env.POSTGRES_DIALECT
 
-AppDataSource.initialize()
-    .then (() => {
-        console.log('\nDatabase connected!\n')
-    }).catch(err => {
-    console.log('\nError connecting to database!\n')
-        })
+)
 
-module.exports = AppDataSource
+module.exports = connection

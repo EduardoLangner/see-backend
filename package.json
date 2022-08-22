@@ -16,8 +16,9 @@
     "morgan": "^1.10.0",
     "pg": "^8.7.3",
     "postgresql": "^0.0.1",
-    "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.3.7"
+    "sequelize": "^6.21.4",
+    "sequelize-cli": "^6.4.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
