@@ -1,3 +1,4 @@
+AMBIENTE
 npm init -y (configura o package.json com informações padrão)
 npm install --save express (instala o express) gerando o package-lock.json e a pasta node_modules que é o diretório onde todos os módulos do ficam instalados
 npm install --save-dev nodemon (instala o nodemon) que é um servidor que monitora o código e reinicia o servidor quando houver alterações
@@ -6,8 +7,18 @@ npm install --save body-parser (instala o body-parser) que é um módulo que per
 npm install --save postgresql (instala o postgresql) 
 npm install dotenv (instala o dotenv) que é um módulo que permite que o express interpretar o arquivo .env
 npm install pg --save (instala o pg) 
+
+DOCKER
+npm install --save docker
+    docker-compose up (http://localhost:5050/)
+
+SEQUELIZE
 npm install --save yarn
 yarn sequelize db:create para criar um novo banco de dados
 yarn sequelize migration:create --name=<nome da tabela a ser criada> cria uma migration para fazer uma tabela
+    yarn sequelize migration:create --name=create-genre
+    yarn sequelize migration:create --name=create-movie
+    yarn sequelize migration:create --name=create-serie
+    yarn sequelize migration:create --name=create-episode
 yarn sequelize db:migrate cria uma tabela, no caso roda os sequelize 
 yarn sequelize db:migrate:undo desfaz a ultima migration feita
