@@ -5,6 +5,9 @@ npm install --save morgan (instala o morgan) que é um módulo que mostra as req
 npm install --save body-parser (instala o body-parser) que é um módulo que permite que o express interpretar o corpo das requisições
 npm install --save postgresql (instala o postgresql) 
 npm install dotenv (instala o dotenv) que é um módulo que permite que o express interpretar o arquivo .env
-npm install typeorm --save (instala o typeorm) que é um módulo que permite que o typeorm seja usado no projeto
-npm install reflect-metadata --save (instala o reflect-metadata) 
 npm install pg --save (instala o pg) 
+npm install --save yarn
+yarn sequelize db:create para criar um novo banco de dados
+yarn sequelize migration:create --name=<nome da tabela a ser criada> cria uma migration para fazer uma tabela
+yarn sequelize db:migrate cria uma tabela, no caso roda os sequelize 
+yarn sequelize db:migrate:undo desfaz a ultima migration feita
