@@ -9,9 +9,8 @@ module.exports = {
     database: process.env.POSTGRES_DATABASE,
     port: process.env.POSTGRES_PORT,
     define: {
-        timestamp: true,
+        timestamps: true,
         underscored: true,
     },
 
-}
-
+}   
