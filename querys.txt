@@ -303,3 +303,177 @@ insert into episode (title, duration, serie_id, season, comment) values ('The Bi
     "year": 2003,
     "comment": ""
 }
+
+{
+    "title": "O Poderoso Chefão",
+    "description": "Um jovem italiano se muda para os Estados Unidos e se torna um dos maiores chefões da máfia.",
+    "genre_id": 3,
+    "parental_rating": "16 anos",
+    "evaluation": 5,
+    "duration": "2h 55m",
+    "year": 1972,
+    "comment": ""
+}
+{
+    "title": "O Poderoso Chefão: Parte II",
+    "description": "O jovem italiano Michael Corleone se torna o chefe da máfia de Nova York. Mas, quando ele tenta se afastar do mundo do crime, ele descobre que não é tão fácil assim.",
+    "genre_id": 3,
+    "parental_rating": "16 anos",
+    "evaluation": 5,
+    "duration": "3h 22m",
+    "year": 1974,
+    "comment": ""
+}
+{
+    "title": "O Poderoso Chefão: Parte III",
+    "description": "Michael Corleone se torna o chefe da máfia de Nova York. Mas, quando ele tenta se afastar do mundo do crime, ele descobre que não é tão fácil assim.",
+    "genre_id": 3,
+    "parental_rating": "16 anos",
+    "evaluation": 5,
+    "duration": "2h 55m",
+    "year": 1990,
+    "comment": ""
+}
+
+ 
+{
+    "title": "Breaking Bad",
+    "description": "Um professor de química descobre que tem câncer e decide começar a produzir metanfetamina para deixar sua família bem financeiramente.",
+    "genre_id": 4,
+    "parental_rating": "16 anos",
+    "evaluation": 5,
+    "year": 2008,
+    "season_quantity": 5,
+    "comment": ""
+}
+
+{
+    "title": "Game of Thrones",
+    "description": "Em um mundo onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, enquanto um exército misterioso de criaturas de gelo avança sobre o Muro que protege o reino do Norte.",
+    "genre_id": 4,
+    "parental_rating": "16 anos",
+    "evaluation": 5,
+    "year": 2011,
+    "season_quantity": 7,
+    "comment": ""
+}
+
+{
+    "title": "The Walking Dead",
+    "description": "Após um apocalipse zumbi, um grupo de sobreviventes tenta se manter vivo em um mundo dominado por mortos-vivos.",
+    "genre_id": 4,
+    "parental_rating": "16 anos",
+    "evaluation": 5,
+    "year": 2010,
+    "season_quantity": 8,
+    "comment": ""
+}
+
+{
+    "title": "The Big Bang Theory",
+    "description": "Leonard e Sheldon são dois físicos que trabalham na mesma universidade. Eles são vizinhos e amigos de longa data. Eles são inteligentes, mas não têm muita habilidade social. 
+    "genre_id": 4,
+    "parental_rating": "10 anos",
+    "evaluation": 5,
+    "year": 2007,
+    "season_quantity": 11,
+    "comment": ""
+}
+
+{
+    "title": "How I Met Your Mother",
+    "description": "Ted Mosby conta a seus filhos como conheceu a mãe deles. A história começa quando Ted está prestes a se casar com sua namorada, Victoria. Ele conta a seus amigos que, quando ele era criança, ele ouviu uma história de seu pai sobre como ele conheceu a mãe dele. Ted então começa a contar a história de como conheceu sua esposa, Tracy.",
+    "genre_id": 4,
+    "parental_rating": "10 anos",
+    "evaluation": 5,
+    "year": 2005,
+    "season_quantity": 9,
+    "comment": ""
+}
+
+{
+    "title": "The Office",
+    "description": "A série se passa em uma empresa fictícia chamada Dunder Mifflin, que vende papel. A série mostra a vida de funcionários de uma empresa de papel, que trabalham em Scranton, Pensilvânia. A série é uma adaptação do programa britânico de mesmo nome.",
+    "genre_id": 4,
+    "parental_rating": "12 anos",
+    "evaluation": 5,
+    "year": 2005,
+    "season_quantity": 9,
+    "comment": ""
+}
+
+
+{
+    "title": "The Flash",
+    "description": "Após um acidente de laboratório, Barry Allen, um policial forense, ganha a habilidade de se mover a velocidades superiores à da luz. Com isso, ele passa a usar seus poderes para combater o crime, sob o codinome Flash.",
+    "genre_id": 4,
+    "parental_rating": "12 anos",
+    "evaluation": 5,
+    "year": 2014,
+    "season_quantity": 4,
+    "comment": ""
+}
+
+{
+    "title": "Arrow",
+    "description": "Oliver Queen é um jovem bilionário que passa cinco anos preso em uma ilha deserta. Quando ele retorna para Starling City, ele descobre que seu pai foi morto e que sua amada namorada, Laurel Lance, está prestes a se casar com seu melhor amigo, Tommy Merlyn. Oliver então decide usar o dinheiro de sua empresa para viajar pelo mundo e se tornar um herói mascarado.",
+    "genre_id": 4,
+    "parental_rating": "12 anos",
+    "evaluation": 5,
+    "year": 2012,
+    "season_quantity": 6,
+    "comment": ""
+}
+
+{
+    "title": "Supernatural",
+    "description": "Sam e Dean Winchester são caçadores de demônios, que viajam pelo país em um Chevrolet Impala de 1967, lutando contra todo tipo de criatura sobrenatural. Eles são filhos de John Winchester, que os treinou desde criança para caçar o que ele chama de monstros.",
+    "genre_id": 4,
+    "parental_rating": "12 anos",
+    "evaluation": 5,
+    "year": 2005,
+    "season_quantity": 13,
+    "comment": ""
+}
+
+{
+    "title": "The 100",
+    "description": "Após uma guerra nuclear, 100 jovens são enviados para a Terra para ver se ela é habitável novamente.",
+    "genre_id": 4,
+    "parental_rating": "12 anos",
+    "evaluation": 5,
+    "year": 2014,
+    "season_quantity": 5,
+    "comment": ""
+}
+
+//episodios da primeira temporada de breaking bad
+
+{
+    "title": "Pilot",
+    "duration": 1,
+    "serie_id": 1,
+    "season": 1,
+    "comment": ""
+}
+
+{
+    "title": "Cat's in the Bag...",
+    "duration": 1,
+    "serie_id": 1,
+    "season": 1,
+    "comment": ""
+}
+
+{
+    "title": "...And the Bag's in the River",
+    "duration": 1,
+    "serie_id": 1,
+    "season": 1,
+    "comment": ""
+}
+
+  
+
+
+
