@@ -55,7 +55,6 @@ insert into genres (name, created_at, updated_at) values ('Drama');
 insert into genres (name, created_at, updated_at) values ('Espionagem');
 insert into genres (name, created_at, updated_at) values ('Fantasia');
 insert into genres (name, created_at, updated_at) values ('Ficção Científica');
-insert into genres (name, created_at, updated_at) values ('Fantasia');
 insert into genres (name, created_at, updated_at) values ('Guerra');
 insert into genres (name, created_at, updated_at) values ('Romance');
 insert into genres (name, created_at, updated_at) values ('Suspense');
@@ -70,3 +69,237 @@ insert into serie (title, description, genres_id, parental_rating, evaluation, d
 insert into serie (title, description, genres_id, parental_rating, evaluation, duration, year, seasonQuantity) values ('Dark', 'Dark é uma série de televisão de ficção científica de 2008, baseada no livro de histórias da saga da mesma nome. A série é dirigida por Stephen Merchant, e estrelou por Sam MacFarlane, J.K. Simmons, and Kaley Cuoco. A série é a terceira série de ficção científica do Brasil, e foi a terceira série de ficção científica a ser estrelada em um único país.', 3, '12', 10, 2008, 10);
 
 insert into episode (title, duration, serie_id, season, comment) values ('The Big Bang Theory, Temporada 1, Episódio 1', '1h 30min', 1, 1);
+
+
+{
+    "name": "Ação"
+}
+{
+    "name": "Aventura"
+}
+{
+    "name": "Comédia"
+}
+{
+    "name": "Drama"
+}
+{
+    "name": "Espionagem"
+}
+{
+    "name": "Fantasia"
+}
+{
+    "name": "Ficção Científica"
+}
+{
+    "name": "Guerra"
+}
+{
+    "name": "Romance"
+}
+{
+    "name": "Suspense"
+}
+{
+    "name": "Terror"
+}
+
+{ 
+    "title": "Star Wars: Uma Nova Esperança (Episódio IV)", 
+    "description": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e o capitão Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.", 
+    "genre_id": 7, 
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 1m",
+    "year": 1977,
+    "comment": "Filme muito bom!!"
+}
+
+{ 
+    "title": "Star Wars: O Império Contra-Ataca (Episódio V)", 
+    "description": "As forças imperais comandadas por Darth Vader lançam um ataque contra os membros da resistência, que são obrigados a fugir. Luke Skywalker tenta encontrar o Mestre Yoda, que poderá ensiná-lo a dominar a Força e torná-lo um cavaleiro jedi.", 
+    "genre_id": 7, 
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 4m",
+    "year": 1980,
+    "comment": ""
+}
+
+{ 
+    "title": "Star Wars: A Ameaça Fantasme (Episódio I)", 
+    "description": "Obi-Wan e seu mentor embarcam em uma perigosa aventura na tentativa de salvar o planeta das garras de Darth Sidious. Durante a viagem, eles conhecem um habilidoso menino e decidem treiná-lo para se tornar um Jedi.", 
+    "genre_id": 7, 
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 16m",
+    "year": 1999,
+    "comment": "Obi-Wan Kenobi novo é demais"
+}
+
+{
+    "title": "Star Wars: O Ataque dos Clones (Episódio II)",
+    "description": "O jovem Anakin Skywalker se torna um cavaleiro jedi e se apaixona por Padmé Amidala. Juntos, eles tentam impedir que o exército separatista de Darth Sidious conquiste a galáxia.",
+    "genre_id": 7,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 22m",
+    "year": 2002,
+    "comment": ""
+}
+
+{
+    "title": "Star Wars: A Vingança dos Sith (Episódio III)",
+    "description": "O jovem Anakin Skywalker se torna um cavaleiro jedi e se apaixona por Padmé Amidala. Juntos, eles tentam impedir que o exército separatista de Darth Sidious conquiste a galáxia.",
+    "genre_id": 7,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 22m",
+    "year": 2005,
+    "comment": ""
+}
+
+{
+    "title": "Star Wars: O Despertar da Força (Episódio VII)",
+    "description": "Luke Skywalker, Han Solo e Princesa Leia se unem a um jovem herói chamado Finn e a uma piloto de X-Wing chamada Rey para lutar contra o Império e restaurar a liberdade e a justiça na galáxia.",
+    "genre_id": 7,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 16m",
+    "year": 2015,
+    "comment": ""
+}
+
+{
+    "title": "Star Wars: Os Últimos Jedi (Episódio VIII)",
+    "description": "Luke Skywalker, Han Solo e Princesa Leia se unem a um jovem herói chamado Finn e a uma piloto de X-Wing chamada Rey para lutar contra o Império e restaurar a liberdade e a justiça na galáxia.",
+    "genre_id": 7,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 32m",
+    "year": 2017,
+    "comment": ""
+}
+
+{
+    "title": "Star Wars: A Ascensão Skywalker (Episódio IX)",
+    "description": "Luke Skywalker, Han Solo e Princesa Leia se unem a um jovem herói chamado Finn e a uma piloto de X-Wing chamada Rey para lutar contra o Império e restaurar a liberdade e a justiça na galáxia.",
+    "genre_id": 7,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 22m",
+    "year": 2019,
+    "comment": ""
+}
+{
+    "title": "Harry Potter e a Pedra Filosofal",
+    "description": "Harry Potter é um menino órfão que vive infeliz com os tios e o primo. Ele descobre, no entanto, que é um bruxo e que foi convidado para estudar na Escola de Magia e Bruxaria de Hogwarts. Lá, ele faz novos amigos e vive aventuras incríveis.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 32m",
+    "year": 2001,
+    "comment": ""
+}
+{
+    "title": "Harry Potter e a Câmara Secreta",
+    "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu segundo ano de estudos. Lá, ele descobre que uma criatura misteriosa está matando os alunos da escola.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 31m",
+    "year": 2002,
+    "comment": ""
+}
+{
+    "title": "Harry Potter e o Prisioneiro de Azkaban",
+    "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu terceiro ano de estudos. Lá, ele descobre que um assassino está solto na escola e que Sirius Black, um antigo prisioneiro de Azkaban, pode ser o responsável.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 22m",
+    "year": 2004,
+    "comment": ""
+}
+{
+    "title": "Harry Potter e o Cálice de Fogo",
+    "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu quarto ano de estudos. Lá, ele descobre que um torneio de quadribol está prestes a acontecer e que o vencedor será o representante do Brasil na Copa do Mundo de Quadribol.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 33m",
+    "year": 2005,
+    "comment": ""
+}
+{
+    "title": "Harry Potter e a Ordem da Fênix",
+    "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu quinto ano de estudos. Lá, ele descobre que o Ministério da Magia está tentando impedir que ele volte para a escola e que o diretor Dumbledore está tentando protegê-lo.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 33m",
+    "year": 2007,
+    "comment": ""
+}
+{
+    "title": "Harry Potter e o Enigma do Príncipe",
+    "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu sexto ano de estudos. Lá, ele descobre que o diretor Dumbledore está tentando protegê-lo e que o príncipe misterioso pode ser um antigo aluno da escola.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 33m",
+    "year": 2009,
+    "comment": ""
+}
+{
+    "title": "Harry Potter e as Relíquias da Morte: Parte 1",
+    "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu sétimo ano de estudos. Lá, ele descobre que o diretor Dumbledore está tentando protegê-lo e que o príncipe misterioso pode ser um antigo aluno da escola.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 33m",
+    "year": 2010,
+    "comment": ""
+}
+{
+    "title": "Harry Potter e as Relíquias da Morte: Parte 2",
+    "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu sétimo ano de estudos. Lá, ele descobre que o diretor Dumbledore está tentando protegê-lo e que o príncipe misterioso pode ser um antigo aluno da escola.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 33m",
+    "year": 2011,
+    "comment": ""
+}
+
+{
+    "title": "O Senhor dos Anéis: A Sociedade do Anel",
+    "description": "Um hobbit recebe de presente de seu tio um anel mágico e maligno. Ao colocá-lo em seu dedo, ele se torna invisível e passa a ser perseguido por um grupo de anões, que querem recuperar o anel.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 58m",
+    "year": 2001,
+    "comment": ""
+}
+{
+    "title": "O Senhor dos Anéis: As Duas Torres",
+    "description": "A Sociedade do Anel continua sua jornada para destruir o Um Anel. Eles são perseguidos por um exército de orcs e pelo Rei dos Anões, que quer recuperar o anel para si.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "2h 59m",
+    "year": 2002,
+    "comment": ""
+}
+{
+    "title": "O Senhor dos Anéis: O Retorno do Rei",
+    "description": "A Sociedade do Anel continua sua jornada para destruir o Um Anel. Eles são perseguidos por um exército de orcs e pelo Rei dos Anões, que quer recuperar o anel para si.",
+    "genre_id": 2,
+    "parental_rating": "Livre",
+    "evaluation": 5,
+    "duration": "3h 21m",
+    "year": 2003,
+    "comment": ""
+}

@@ -33,9 +33,9 @@ module.exports = {
         allowNull: false,
       },
 
-      comments: {
+      comment: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: true,
       },
 
       created_at: {

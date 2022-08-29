@@ -29,7 +29,7 @@ module.exports = {
       },
 
       parental_rating: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false, 
       },
 
@@ -48,9 +48,9 @@ module.exports = {
         allowNull: false,
       },
 
-      comments: {
+      comment: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: true,
       },
 
       created_at: {

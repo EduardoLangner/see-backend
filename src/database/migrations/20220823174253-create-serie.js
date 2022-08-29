@@ -29,7 +29,7 @@ module.exports = {
       },
 
       parental_rating: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false, 
       },
 
@@ -43,7 +43,7 @@ module.exports = {
         allowNull: false,
       },
 
-      seasonQuantity: {
+      season_quantity: {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
