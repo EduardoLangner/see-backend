@@ -8,12 +8,7 @@ module.exports = {
     },
 
     async store(req, res) {
-        const {title} = req.body
-        const {duration} = req.body
-        const {serie_id} = req.body
-        const {season} = req.body
-        const {comment} = req.body
-        const episode = await Episode.create({title, duration, serie_id, season, comment})
+        const episode = await Episode.bulkCreate(req.body)
         return res.json(episode)
     },
 

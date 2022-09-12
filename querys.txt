@@ -1,479 +1,3871 @@
-create table genres (
-    id serial primary key not null,
-    name, created_at, updated_at varchar(255) not null
-);
-
-create table movie (
-    id serial primary key not null,
-    title varchar(50) not null,
-    description varchar(250) not null,
-    genres_id serial not null,
-    foreign key (genres_id) references genres (id),
-    parental_rating varchar(10) not null,
-    evaluation integer not null,
-    duration varchar(10) not null,
-    year integer not null,
-    comment varchar(250)
-);
-
-create table serie (
-    id serial primary key not null,
-    title varchar(50) not null,
-    description varchar(250) not null,
-    genres_id serial not null,
-    foreign key (genres_id) references genres (id),
-    parental_rating varchar(10) not null,
-    evaluation integer not null,
-    year integer not null, 
-    seasonQuantity integer not null
-);
-
-create table episode (
-    id serial primary key not null,
-    title varchar(50) not null,
-    duration varchar(10) not null,
-    serie_id serial not null,
-    foreign key (serie_id) references serie (id),
-    season integer not null,
-    comment varchar(250)
-);
-
-drop table episode;
-drop table serie;
-drop table movie;
-drop table genres;
-
-select * from genres;
-select * from movie;
-select * from serie;
-select * from episode;
-
-insert into genres (name, created_at, updated_at, created_at, updated_at) values ('Ação');
-insert into genres (name, created_at, updated_at) values ('Aventura');
-insert into genres (name, created_at, updated_at) values ('Comédia');
-insert into genres (name, created_at, updated_at) values ('Drama');
-insert into genres (name, created_at, updated_at) values ('Espionagem');
-insert into genres (name, created_at, updated_at) values ('Fantasia');
-insert into genres (name, created_at, updated_at) values ('Ficção Científica');
-insert into genres (name, created_at, updated_at) values ('Guerra');
-insert into genres (name, created_at, updated_at) values ('Romance');
-insert into genres (name, created_at, updated_at) values ('Suspense');
-insert into genres (name, created_at, updated_at) values ('Terror');
-
-insert into movie (title, description, genres_id, parental_rating, evaluation, duration, year, comment) values ('O Poderoso Chefão', 'O Poderoso Chefão é um filme de ação de ficção científica de 2014, baseado no livro de histórias da saga da mesma nome. O filme é dirigido por Rodrigo Alfieri, e estrelou por João Carlos Cabral, Rodrigo Fraga, e Fernando Masanori. O filme é o primeiro filme de ação de ficção científica do Brasil, e foi o primeiro filme de ação de ficção científica a ser estrelado em um único país.', 1, '12', 10, '1h 30min', 2014);
-insert into movie (title, description, genres_id, parental_rating, evaluation, duration, year, comment) values ('O Poderoso Chefão 2: O Retorno do Chefão', 'O Poderoso Chefão 2: O Retorno do Chefão é um filme de ação de ficção científica de 2015, baseado no livro de histórias da saga da mesma nome. O filme é dirigido por Rodrigo Alfieri, e estrelou por João Carlos Cabral, Rodrigo Fraga, e Fernando Masanori. O filme é o segundo filme de ação de ficção científica do Brasil, e foi o segundo filme de ação de ficção científica a ser estrelado em um único país.', 2, '12', 10, '1h 30min', 2015);
-insert into movie (title, description, genres_id, parental_rating, evaluation, duration, year, comment) values ('O Poderoso Chefão 3: O Fim do Universo', 'O Poderoso Chefão 3: O Fim do Universo é um filme de ação de ficção científica de 2016, baseado no livro de histórias da saga da mesma nome. O filme é dirigido por Rodrigo Alfieri, e estrelou por João Carlos Cabral, Rodrigo Fraga, e Fernando Masanori. O filme é o terceiro filme de ação de ficção científica do Brasil, e foi o terceiro filme de ação de ficção científica a ser estrelado em um único país.', 3, '12', 10, '1h 30min', 2016);
-
-insert into serie (title, description, genres_id, parental_rating, evaluation, duration, year, seasonQuantity) values ('The Big Bang Theory', 'The Big Bang Theory é uma série de televisão de ficção científica de 2007, baseada no livro de histórias da saga da mesma nome. A série é dirigida por Chuck Fife, e estrelou por John Krasinski, John Oliver, e Kaley Cuoco. A série é a primeira série de ficção científica do Brasil, e foi a primeira série de ficção científica a ser estrelada em um único país.', 1, '12', 10, 2007, 7);
-insert into serie (title, description, genres_id, parental_rating, evaluation, duration, year, seasonQuantity) values ('Supernatural', 'Supernatural é uma série de televisão de ficção científica de 2005, baseada no livro de histórias da saga da mesma nome. A série é dirigida por Stephen Merchant, e estrelou por Sam MacFarlane, J.K. Simmons, and Kaley Cuoco. A série é a segunda série de ficção científica do Brasil, e foi a segunda série de ficção científica a ser estrelada em um único país.', 2, '12', 10, 2005, 10);
-insert into serie (title, description, genres_id, parental_rating, evaluation, duration, year, seasonQuantity) values ('Dark', 'Dark é uma série de televisão de ficção científica de 2008, baseada no livro de histórias da saga da mesma nome. A série é dirigida por Stephen Merchant, e estrelou por Sam MacFarlane, J.K. Simmons, and Kaley Cuoco. A série é a terceira série de ficção científica do Brasil, e foi a terceira série de ficção científica a ser estrelada em um único país.', 3, '12', 10, 2008, 10);
-
-insert into episode (title, duration, serie_id, season, comment) values ('The Big Bang Theory, Temporada 1, Episódio 1', '1h 30min', 1, 1);
-
-
-{
+[
+  {
     "name": "Ação"
-}
-{
+  },
+  {
     "name": "Aventura"
-}
-{
+  },
+  {
     "name": "Comédia"
-}
-{
+  },
+  {
     "name": "Drama"
-}
-{
+  },
+  {
     "name": "Espionagem"
-}
-{
+  },
+  {
     "name": "Fantasia"
-}
-{
+  },
+  {
     "name": "Ficção Científica"
-}
-{
+  },
+  {
     "name": "Guerra"
-}
-{
+  },
+  {
     "name": "Romance"
-}
-{
+  },
+  {
     "name": "Suspense"
-}
-{
+  },
+  {
     "name": "Terror"
-}
+  }
+]
 
-{ 
-    "title": "Star Wars: Uma Nova Esperança (Episódio IV)", 
-    "description": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e o capitão Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.", 
-    "genre_id": 7, 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[
+  {
+    "title": "Star Wars: Uma Nova Esperança (Episódio IV)",
+    "description": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e o capitão Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.",
+    "genre_id": 7,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 1m",
-    "year": 1977,
-    "comment": "Filme muito bom!!"
-}
-
-{ 
-    "title": "Star Wars: O Império Contra-Ataca (Episódio V)", 
-    "description": "As forças imperais comandadas por Darth Vader lançam um ataque contra os membros da resistência, que são obrigados a fugir. Luke Skywalker tenta encontrar o Mestre Yoda, que poderá ensiná-lo a dominar a Força e torná-lo um cavaleiro jedi.", 
-    "genre_id": 7, 
+    "year": 1977
+  },
+  {
+    "title": "Star Wars: O Império Contra-Ataca (Episódio V)",
+    "description": "As forças imperais comandadas por Darth Vader lançam um ataque contra os membros da resistência, que são obrigados a fugir. Luke Skywalker tenta encontrar o Mestre Yoda, que poderá ensiná-lo a dominar a Força e torná-lo um cavaleiro jedi.",
+    "genre_id": 7,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 4m",
-    "year": 1980,
-    "comment": ""
-}
-
-{ 
-    "title": "Star Wars: A Ameaça Fantasme (Episódio I)", 
-    "description": "Obi-Wan e seu mentor embarcam em uma perigosa aventura na tentativa de salvar o planeta das garras de Darth Sidious. Durante a viagem, eles conhecem um habilidoso menino e decidem treiná-lo para se tornar um Jedi.", 
-    "genre_id": 7, 
+    "year": 1980
+  },
+  {
+    "title": "Star Wars: A Ameaça Fantasme (Episódio I)",
+    "description": "Obi-Wan e seu mentor embarcam em uma perigosa aventura na tentativa de salvar o planeta das garras de Darth Sidious. Durante a viagem, eles conhecem um habilidoso menino e decidem treiná-lo para se tornar um Jedi.",
+    "genre_id": 7,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 16m",
-    "year": 1999,
-    "comment": "Obi-Wan Kenobi novo é demais"
-}
-
-{
+    "year": 1999
+  },
+  {
     "title": "Star Wars: O Ataque dos Clones (Episódio II)",
     "description": "O jovem Anakin Skywalker se torna um cavaleiro jedi e se apaixona por Padmé Amidala. Juntos, eles tentam impedir que o exército separatista de Darth Sidious conquiste a galáxia.",
     "genre_id": 7,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 22m",
-    "year": 2002,
-    "comment": ""
-}
-
-{
+    "year": 2002
+  },
+  {
     "title": "Star Wars: A Vingança dos Sith (Episódio III)",
     "description": "O jovem Anakin Skywalker se torna um cavaleiro jedi e se apaixona por Padmé Amidala. Juntos, eles tentam impedir que o exército separatista de Darth Sidious conquiste a galáxia.",
     "genre_id": 7,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 22m",
-    "year": 2005,
-    "comment": ""
-}
-
-{
+    "year": 2005
+  },
+  {
     "title": "Star Wars: O Despertar da Força (Episódio VII)",
     "description": "Luke Skywalker, Han Solo e Princesa Leia se unem a um jovem herói chamado Finn e a uma piloto de X-Wing chamada Rey para lutar contra o Império e restaurar a liberdade e a justiça na galáxia.",
     "genre_id": 7,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 16m",
-    "year": 2015,
-    "comment": ""
-}
-
-{
+    "year": 2015
+  },
+  {
     "title": "Star Wars: Os Últimos Jedi (Episódio VIII)",
     "description": "Luke Skywalker, Han Solo e Princesa Leia se unem a um jovem herói chamado Finn e a uma piloto de X-Wing chamada Rey para lutar contra o Império e restaurar a liberdade e a justiça na galáxia.",
     "genre_id": 7,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 32m",
-    "year": 2017,
-    "comment": ""
-}
-
-{
+    "year": 2017
+  },
+  {
     "title": "Star Wars: A Ascensão Skywalker (Episódio IX)",
     "description": "Luke Skywalker, Han Solo e Princesa Leia se unem a um jovem herói chamado Finn e a uma piloto de X-Wing chamada Rey para lutar contra o Império e restaurar a liberdade e a justiça na galáxia.",
     "genre_id": 7,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 22m",
-    "year": 2019,
-    "comment": ""
-}
-{
+    "year": 2019
+  },
+  {
     "title": "Harry Potter e a Pedra Filosofal",
     "description": "Harry Potter é um menino órfão que vive infeliz com os tios e o primo. Ele descobre, no entanto, que é um bruxo e que foi convidado para estudar na Escola de Magia e Bruxaria de Hogwarts. Lá, ele faz novos amigos e vive aventuras incríveis.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 32m",
-    "year": 2001,
-    "comment": ""
-}
-{
+    "year": 2001
+  },
+  {
     "title": "Harry Potter e a Câmara Secreta",
     "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu segundo ano de estudos. Lá, ele descobre que uma criatura misteriosa está matando os alunos da escola.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 31m",
-    "year": 2002,
-    "comment": ""
-}
-{
+    "year": 2002
+  },
+  {
     "title": "Harry Potter e o Prisioneiro de Azkaban",
     "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu terceiro ano de estudos. Lá, ele descobre que um assassino está solto na escola e que Sirius Black, um antigo prisioneiro de Azkaban, pode ser o responsável.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 22m",
-    "year": 2004,
-    "comment": ""
-}
-{
+    "year": 2004
+  },
+  {
     "title": "Harry Potter e o Cálice de Fogo",
     "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu quarto ano de estudos. Lá, ele descobre que um torneio de quadribol está prestes a acontecer e que o vencedor será o representante do Brasil na Copa do Mundo de Quadribol.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 33m",
-    "year": 2005,
-    "comment": ""
-}
-{
+    "year": 2005
+  },
+  {
     "title": "Harry Potter e a Ordem da Fênix",
     "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu quinto ano de estudos. Lá, ele descobre que o Ministério da Magia está tentando impedir que ele volte para a escola e que o diretor Dumbledore está tentando protegê-lo.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 33m",
-    "year": 2007,
-    "comment": ""
-}
-{
+    "year": 2007
+  },
+  {
     "title": "Harry Potter e o Enigma do Príncipe",
     "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu sexto ano de estudos. Lá, ele descobre que o diretor Dumbledore está tentando protegê-lo e que o príncipe misterioso pode ser um antigo aluno da escola.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 33m",
-    "year": 2009,
-    "comment": ""
-}
-{
+    "year": 2009
+  },
+  {
     "title": "Harry Potter e as Relíquias da Morte: Parte 1",
     "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu sétimo ano de estudos. Lá, ele descobre que o diretor Dumbledore está tentando protegê-lo e que o príncipe misterioso pode ser um antigo aluno da escola.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 33m",
-    "year": 2010,
-    "comment": ""
-}
-{
+    "year": 2010
+  },
+  {
     "title": "Harry Potter e as Relíquias da Morte: Parte 2",
     "description": "Harry Potter retorna para a Escola de Magia e Bruxaria de Hogwarts para seu sétimo ano de estudos. Lá, ele descobre que o diretor Dumbledore está tentando protegê-lo e que o príncipe misterioso pode ser um antigo aluno da escola.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 33m",
-    "year": 2011,
-    "comment": ""
-}
-
-{
+    "year": 2011
+  },
+  {
     "title": "O Senhor dos Anéis: A Sociedade do Anel",
     "description": "Um hobbit recebe de presente de seu tio um anel mágico e maligno. Ao colocá-lo em seu dedo, ele se torna invisível e passa a ser perseguido por um grupo de anões, que querem recuperar o anel.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 58m",
-    "year": 2001,
-    "comment": ""
-}
-{
+    "year": 2001
+  },
+  {
     "title": "O Senhor dos Anéis: As Duas Torres",
     "description": "A Sociedade do Anel continua sua jornada para destruir o Um Anel. Eles são perseguidos por um exército de orcs e pelo Rei dos Anões, que quer recuperar o anel para si.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "2h 59m",
-    "year": 2002,
-    "comment": ""
-}
-{
+    "year": 2002
+  },
+  {
     "title": "O Senhor dos Anéis: O Retorno do Rei",
     "description": "A Sociedade do Anel continua sua jornada para destruir o Um Anel. Eles são perseguidos por um exército de orcs e pelo Rei dos Anões, que quer recuperar o anel para si.",
     "genre_id": 2,
     "parental_rating": "Livre",
-    "evaluation": 5,
     "duration": "3h 21m",
-    "year": 2003,
-    "comment": ""
-}
-
-{
+    "year": 2003
+  },
+  {
     "title": "O Poderoso Chefão",
     "description": "Um jovem italiano se muda para os Estados Unidos e se torna um dos maiores chefões da máfia.",
     "genre_id": 3,
     "parental_rating": "16 anos",
-    "evaluation": 5,
     "duration": "2h 55m",
-    "year": 1972,
-    "comment": ""
-}
-{
+    "year": 1972
+  },
+  {
     "title": "O Poderoso Chefão: Parte II",
     "description": "O jovem italiano Michael Corleone se torna o chefe da máfia de Nova York. Mas, quando ele tenta se afastar do mundo do crime, ele descobre que não é tão fácil assim.",
     "genre_id": 3,
     "parental_rating": "16 anos",
-    "evaluation": 5,
     "duration": "3h 22m",
-    "year": 1974,
-    "comment": ""
-}
-{
+    "year": 1974
+  },
+  {
     "title": "O Poderoso Chefão: Parte III",
     "description": "Michael Corleone se torna o chefe da máfia de Nova York. Mas, quando ele tenta se afastar do mundo do crime, ele descobre que não é tão fácil assim.",
     "genre_id": 3,
     "parental_rating": "16 anos",
-    "evaluation": 5,
     "duration": "2h 55m",
-    "year": 1990,
-    "comment": ""
-}
+    "year": 1990
+  }
+]
 
- 
-{
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[
+  {
     "title": "Breaking Bad",
     "description": "Um professor de química descobre que tem câncer e decide começar a produzir metanfetamina para deixar sua família bem financeiramente.",
     "genre_id": 4,
     "parental_rating": "16 anos",
-    "evaluation": 5,
     "year": 2008,
-    "season_quantity": 5,
-    "comment": ""
-}
-
-{
+    "season_quantity": 5
+  },
+  {
     "title": "Game of Thrones",
     "description": "Em um mundo onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, enquanto um exército misterioso de criaturas de gelo avança sobre o Muro que protege o reino do Norte.",
     "genre_id": 4,
     "parental_rating": "16 anos",
-    "evaluation": 5,
     "year": 2011,
-    "season_quantity": 7,
-    "comment": ""
-}
-
-{
+    "season_quantity": 7
+  },
+  {
     "title": "The Walking Dead",
     "description": "Após um apocalipse zumbi, um grupo de sobreviventes tenta se manter vivo em um mundo dominado por mortos-vivos.",
     "genre_id": 4,
     "parental_rating": "16 anos",
-    "evaluation": 5,
     "year": 2010,
-    "season_quantity": 8,
-    "comment": ""
-}
-
-{
+    "season_quantity": 8
+  },
+  {
     "title": "The Big Bang Theory",
-    "description": "Leonard e Sheldon são dois físicos que trabalham na mesma universidade. Eles são vizinhos e amigos de longa data. Eles são inteligentes, mas não têm muita habilidade social. 
+    "description": "Leonard e Sheldon são dois físicos que trabalham na mesma universidade. Eles são vizinhos e amigos de longa data. Eles são inteligentes, mas não têm muita habilidade social.",
     "genre_id": 4,
     "parental_rating": "10 anos",
-    "evaluation": 5,
     "year": 2007,
-    "season_quantity": 11,
-    "comment": ""
-}
-
-{
+    "season_quantity": 11
+  },
+  {
     "title": "How I Met Your Mother",
     "description": "Ted Mosby conta a seus filhos como conheceu a mãe deles. A história começa quando Ted está prestes a se casar com sua namorada, Victoria. Ele conta a seus amigos que, quando ele era criança, ele ouviu uma história de seu pai sobre como ele conheceu a mãe dele. Ted então começa a contar a história de como conheceu sua esposa, Tracy.",
     "genre_id": 4,
     "parental_rating": "10 anos",
-    "evaluation": 5,
     "year": 2005,
-    "season_quantity": 9,
-    "comment": ""
-}
-
-{
+    "season_quantity": 9
+  },
+  {
     "title": "The Office",
     "description": "A série se passa em uma empresa fictícia chamada Dunder Mifflin, que vende papel. A série mostra a vida de funcionários de uma empresa de papel, que trabalham em Scranton, Pensilvânia. A série é uma adaptação do programa britânico de mesmo nome.",
     "genre_id": 4,
     "parental_rating": "12 anos",
-    "evaluation": 5,
     "year": 2005,
-    "season_quantity": 9,
-    "comment": ""
-}
-
-
-{
+    "season_quantity": 9
+  },
+  {
     "title": "The Flash",
     "description": "Após um acidente de laboratório, Barry Allen, um policial forense, ganha a habilidade de se mover a velocidades superiores à da luz. Com isso, ele passa a usar seus poderes para combater o crime, sob o codinome Flash.",
     "genre_id": 4,
     "parental_rating": "12 anos",
-    "evaluation": 5,
     "year": 2014,
-    "season_quantity": 4,
-    "comment": ""
-}
-
-{
+    "season_quantity": 4
+  },
+  {
     "title": "Arrow",
     "description": "Oliver Queen é um jovem bilionário que passa cinco anos preso em uma ilha deserta. Quando ele retorna para Starling City, ele descobre que seu pai foi morto e que sua amada namorada, Laurel Lance, está prestes a se casar com seu melhor amigo, Tommy Merlyn. Oliver então decide usar o dinheiro de sua empresa para viajar pelo mundo e se tornar um herói mascarado.",
     "genre_id": 4,
     "parental_rating": "12 anos",
-    "evaluation": 5,
     "year": 2012,
-    "season_quantity": 6,
-    "comment": ""
-}
-
-{
+    "season_quantity": 6
+  },
+  {
     "title": "Supernatural",
     "description": "Sam e Dean Winchester são caçadores de demônios, que viajam pelo país em um Chevrolet Impala de 1967, lutando contra todo tipo de criatura sobrenatural. Eles são filhos de John Winchester, que os treinou desde criança para caçar o que ele chama de monstros.",
     "genre_id": 4,
     "parental_rating": "12 anos",
-    "evaluation": 5,
     "year": 2005,
-    "season_quantity": 13,
-    "comment": ""
-}
-
-{
+    "season_quantity": 13
+  },
+  {
     "title": "The 100",
     "description": "Após uma guerra nuclear, 100 jovens são enviados para a Terra para ver se ela é habitável novamente.",
     "genre_id": 4,
     "parental_rating": "12 anos",
-    "evaluation": 5,
     "year": 2014,
-    "season_quantity": 5,
-    "comment": ""
-}
+    "season_quantity": 5
+  }
+]
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//episodios da primeira temporada de breaking bad
-
-{
-    "title": "Pilot",
-    "duration": 1,
-    "serie_id": 1,
-    "season": 1,
-    "comment": ""
-}
-
-{
-    "title": "Cat's in the Bag...",
-    "duration": 1,
-    "serie_id": 1,
-    "season": 1,
-    "comment": ""
-}
-
-{
-    "title": "...And the Bag's in the River",
-    "duration": 1,
-    "serie_id": 1,
-    "season": 1,
-    "comment": ""
-}
-
-  
+[
+  {
+    "title":"Pilot",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":1
+  },
+  {
+    "title":"Cat's in the Bag...",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":1
+  },
+  {
+    "title":"...And the Bag's in the River",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":1
+  },
+  {
+    "title":"Gray Matter",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":1
+  },
+  {
+    "title":"Crazy Handful of Nothin",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":1
+  },
+  {
+    "title":"A No-Rough-Stuff-Type Deal",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":1
+  },
+  {
+    "title":"Seven Thirty-Seven",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":2
+  },
+  {
+    "title":"Grilled",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":2
+  },
+  {
+    "title":"Bit by a Dead Bee",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":2
+  },
+  {
+    "title":"Down",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":2
+  },
+  {
+    "title":"Breakage",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":2
+  },
+  {
+    "title":"Peekaboo",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":2
+  },
+  {
+    "title":"No Más",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":3
+  },
+  {
+    "title":"Caballo sin Nombre",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":3
+  },
+  {
+    "title":"I.F.T.",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":3
+  },
+  {
+    "title":"Green Light",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":3
+  },
+  {
+    "title":"Mas",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":3
+  },
+  {
+    "title":"Sunset",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":3
+  },
+  {
+    "title":"Box Cutter",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":4
+  },
+  {
+    "title":"Thirty-Eight Snub",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":4
+  },
+  {
+    "title":"Open House",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":4
+  },
+  {
+    "title":"Bullet Points",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":4
+  },
+  {
+    "title":"Shotgun",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":4
+  },
+  {
+    "title":"Cornered",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":4
+  },
+  {
+    "title":"Live Free or Die",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":5
+  },
+  {
+    "title":"Madrigal",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":5
+  },
+  {
+    "title":"Hazard Pay",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":5
+  },
+  {
+    "title":"Say My Name",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":5
+  },
+  {
+    "title":"Gliding Over All",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":5
+  },
+  {
+    "title":"Blood Money",
+    "duration:":"45m",
+    "serie_id":1,
+    "season":5
+  },
+  {
+    "title":"Winter Is Coming",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":1
+  },
+  {
+    "title":"Lord Snow",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":1
+  },
+  {
+    "title":"Cripples, Bastards, and Broken Things",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":1
+  },
+  {
+    "title":"The Wolf and the Lion",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":1
+  },
+  {
+    "title":"A Golden Crown",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":1
+  },
+  {
+    "title":"You Win or You Die",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":2
+  },
+  {
+    "title":"The Pointy End",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":2
+  },
+  {
+    "title":"Baelor",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":2
+  },
+  {
+    "title":"Fire and Blood",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":2
+  },
+  {
+    "title":"The North Remembers",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":2
+  },
+  {
+    "title":"The Night Lands",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":2
+  },
+  {
+    "title":"Valar Dohaeris",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":3
+  },
+  {
+    "title":"Dark Wings, Dark Words",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":3
+  },
+  {
+    "title":"Walk of Punishment",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":3
+  },
+  {
+    "title":"And Now His Watch Is Ended",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":3
+  },
+  {
+    "title":"Kissed by Fire",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":3
+  },
+  {
+    "title":"The Climb",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":3
+  },
+  {
+    "title":"Two Swords",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":4
+  },
+  {
+    "title":"The Lion and the Rose",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":5
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":5
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":5
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":5
+  },
+  {
+    "title":"Gliding Over All",
+    "duration:":"45m",
+    "serie_id":2,
+    "season":5
+  },
+  {
+    "title":"Blood Money",
+    "duration:":"45m",
+    "serie_id":2,
+    "season":5
+  },
+  {
+    "title":"Winter Is Coming",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":7
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":7
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":7
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":7
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":7
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":7
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":7
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":2,
+    "season":7
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":1
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":1
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":1
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":1
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":1
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":1
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":1
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":2
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":2
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":2
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":2
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":2
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":2
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":2
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":2
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":3
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":3
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":3
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":3
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":3
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":3
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":3
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":3
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":4
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":4
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":5
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":5
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":5
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":5
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":5
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":5
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":5
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":5
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":6
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":6
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":6
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":6
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":6
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":6
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":6
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":7
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":7
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":7
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":7
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":7
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":7
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":7
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":7
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":8
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":8
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":8
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":8
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":8
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":8
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":8
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":3,
+    "season":8
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":1
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":1
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":1
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":1
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":1
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":1
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":1
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":2
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":2
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":2
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":2
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":2
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":2
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":2
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":2
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":3
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":3
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":3
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":3
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":3
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":3
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":5
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":5
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":5
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":5
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":5
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":5
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":5
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":5
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":6
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":6
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":6
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":6
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":6
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":6
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":6
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":7
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":7
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":7
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":7
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":7
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":7
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":7
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":7
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":8
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":8
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":8
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":8
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":8
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":8
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":8
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":8
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":9
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":9
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":9
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":9
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":9
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":9
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":9
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":9
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":10
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":10
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":10
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":10
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":10
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":10
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":10
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":10
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":11
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":11
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":11
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":11
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":11
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":11
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":11
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":4,
+    "season":11
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":1
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":1
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":1
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":1
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":1
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":1
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":1
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":2
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":2
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":2
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":2
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":2
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":2
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":2
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":2
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":3
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":3
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":3
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":3
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":3
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":3
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":5
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":5
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":5
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":5
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":5
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":5
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":5
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":5
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":6
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":6
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":6
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":6
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":6
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":6
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":6
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":7
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":7
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":7
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":7
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":7
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":7
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":7
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":7
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":8
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":8
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":8
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":8
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":8
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":8
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":8
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":8
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":9
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":9
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":9
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":9
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":9
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":9
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":5,
+    "season":9
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":1
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":1
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":1
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":1
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":1
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":1
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":1
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":2
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":2
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":2
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":2
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":2
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":2
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":2
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":2
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":3
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":3
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":3
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":3
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":3
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":3
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":5
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":5
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":5
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":5
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":5
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":5
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":5
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":7
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":7
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":7
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":7
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":7
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":7
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":7
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":7
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":8
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":8
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":8
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":8
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":8
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":8
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":8
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":8
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":9
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":9
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":9
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":9
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":9
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":9
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":6,
+    "season":9
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":1
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":1
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":1
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":1
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":1
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":1
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":1
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":2
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":2
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":2
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":2
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":2
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":2
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":2
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":2
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":3
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":3
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":3
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":3
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":3
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":3
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":7,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":1
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":1
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":1
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":1
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":1
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":1
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":1
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":2
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":2
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":2
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":2
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":2
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":2
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":2
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":2
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":3
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":3
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":3
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":3
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":3
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":3
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":5
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":5
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":5
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":5
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":5
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":5
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":5
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":8,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":1
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":1
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":1
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":1
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":1
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":1
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":1
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":2
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":2
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":2
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":2
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":2
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":2
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":2
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":2
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":3
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":3
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":3
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":3
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":3
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":3
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":5
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":5
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":5
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":5
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":5
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":5
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":5
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":5
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":6
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":6
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":6
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":6
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":6
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":6
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":6
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":6
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":7
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":7
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":7
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":7
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":7
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":7
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":7
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":7
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":8
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":8
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":8
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":8
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":8
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":8
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":8
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":8
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":9
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":9
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":9
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":9
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":9
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":9
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":9
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":9
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":10
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":10
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":10
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":10
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":10
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":10
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":10
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":10
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":11
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":11
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":11
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":11
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":11
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":11
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":11
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":11
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":12
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":12
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":12
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":12
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":12
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":12
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":12
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":12
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":13
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":13
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":13
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":13
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":13
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":13
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":13
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":9,
+    "season":13
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":1
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":1
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":1
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":1
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":1
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":1
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":1
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":1
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":2
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":2
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":2
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":2
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":2
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":2
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":2
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":2
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":3
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":3
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":3
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":3
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":3
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":3
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":4
+  },
+  {
+    "title":"The Kingsroad",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":5
+  },
+  {
+    "title":"Breaker of Chains",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":5
+  },
+  {
+    "title":"Oathkeeper",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":5
+  },
+  {
+    "title":"First of His Name",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":5
+  },
+  {
+    "title":"The Wars to Come",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":5
+  },
+  {
+    "title":"The House of Black and White",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":5
+  },
+  {
+    "title":"High Sparrow",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":5
+  },
+  {
+    "title":"Sons of the Harpy",
+    "duration:":"60m",
+    "serie_id":10,
+    "season":5
+  }
+]
 
 
 

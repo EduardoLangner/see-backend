@@ -16,7 +16,7 @@ module.exports = {
       }, 
 
       description: {
-        type: Sequelize.STRING, 
+        type: Sequelize.STRING(1000), 
         allowNull: false,
       }, 
 
@@ -31,11 +31,6 @@ module.exports = {
       parental_rating: {
         type: Sequelize.STRING,
         allowNull: false, 
-      },
-
-      evaluation: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
       },
 
       year: {

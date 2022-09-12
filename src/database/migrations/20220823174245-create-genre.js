@@ -3,6 +3,7 @@
 module.exports = {
   async up (queryInterface, Sequelize) {
     return queryInterface.createTable('genres', {
+      
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,

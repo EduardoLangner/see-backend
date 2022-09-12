@@ -7,10 +7,8 @@ class Movie extends Model {
             description: DataTypes.STRING,
             genre_id: DataTypes.INTEGER,
             parental_rating: DataTypes.STRING,
-            evaluation: DataTypes.INTEGER,
             duration: DataTypes.STRING,
             year: DataTypes.INTEGER,
-            comment: DataTypes.STRING,
         }, {
             sequelize
         })

@@ -7,7 +7,6 @@ class Serie extends Model {
             description: DataTypes.STRING,
             genre_id: DataTypes.INTEGER,
             parental_rating: DataTypes.STRING,
-            evaluation: DataTypes.INTEGER,
             year: DataTypes.INTEGER,
             season_quantity: DataTypes.INTEGER,
         }, {

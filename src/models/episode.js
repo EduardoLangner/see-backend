@@ -7,7 +7,6 @@ class Episode extends Model {
             duration: DataTypes.STRING,
             serie_id: DataTypes.INTEGER,
             season: DataTypes.INTEGER,
-            comment: DataTypes.STRING,
         }, {
             sequelize
         })

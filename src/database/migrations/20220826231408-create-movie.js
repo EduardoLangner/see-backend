@@ -16,7 +16,7 @@ module.exports = {
       }, 
 
       description: {
-        type: Sequelize.STRING, 
+        type: Sequelize.STRING(1000), 
         allowNull: false,
       }, 
 
@@ -33,11 +33,6 @@ module.exports = {
         allowNull: false, 
       },
 
-      evaluation: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-      },
-
       duration: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -48,10 +43,6 @@ module.exports = {
         allowNull: false,
       },
 
-      comment: {
-        type: Sequelize.STRING,
-        allowNull: true,
-      },
 
       created_at: {
         type: Sequelize.DATE,

@@ -8,15 +8,7 @@ module.exports = {
     },
 
     async store(req, res) {
-        const {title} = req.body
-        const {description} = req.body
-        const {genre_id} = req.body
-        const {parental_rating} = req.body
-        const {evaluation} = req.body
-        const {duration} = req.body
-        const {year} = req.body
-        const {comment} = req.body
-        const movie = await Movie.create({title, description, genre_id, parental_rating, evaluation, duration, year, comment})
+        const movie = await Movie.bulkCreate(req.body)
         return res.json(movie)
     },
 

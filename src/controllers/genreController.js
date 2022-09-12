@@ -8,8 +8,7 @@ module.exports = {
     },
 
     async store(req, res) {
-        const {name} = req.body
-        const genre = await Genre.create({name})
+        const genre = await Genre.bulkCreate(req.body)
         return res.json(genre)
     },
 
