@@ -43,7 +43,8 @@
     "genre_id": 7,
     "parental_rating": "Livre",
     "duration": "2h 1m",
-    "year": 1977
+    "year": 1977,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Star Wars: O Império Contra-Ataca (Episódio V)",
@@ -51,7 +52,8 @@
     "genre_id": 7,
     "parental_rating": "Livre",
     "duration": "2h 4m",
-    "year": 1980
+    "year": 1980,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Star Wars: A Ameaça Fantasme (Episódio I)",
@@ -59,7 +61,8 @@
     "genre_id": 7,
     "parental_rating": "Livre",
     "duration": "2h 16m",
-    "year": 1999
+    "year": 1999,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Star Wars: O Ataque dos Clones (Episódio II)",
@@ -67,7 +70,8 @@
     "genre_id": 7,
     "parental_rating": "Livre",
     "duration": "2h 22m",
-    "year": 2002
+    "year": 2002,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Star Wars: A Vingança dos Sith (Episódio III)",
@@ -75,7 +79,8 @@
     "genre_id": 7,
     "parental_rating": "Livre",
     "duration": "2h 22m",
-    "year": 2005
+    "year": 2005,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Star Wars: O Despertar da Força (Episódio VII)",
@@ -83,7 +88,8 @@
     "genre_id": 7,
     "parental_rating": "Livre",
     "duration": "2h 16m",
-    "year": 2015
+    "year": 2015,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Star Wars: Os Últimos Jedi (Episódio VIII)",
@@ -91,7 +97,8 @@
     "genre_id": 7,
     "parental_rating": "Livre",
     "duration": "2h 32m",
-    "year": 2017
+    "year": 2017,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Star Wars: A Ascensão Skywalker (Episódio IX)",
@@ -99,7 +106,8 @@
     "genre_id": 7,
     "parental_rating": "Livre",
     "duration": "2h 22m",
-    "year": 2019
+    "year": 2019,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Harry Potter e a Pedra Filosofal",
@@ -107,7 +115,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 32m",
-    "year": 2001
+    "year": 2001,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Harry Potter e a Câmara Secreta",
@@ -115,7 +124,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 31m",
-    "year": 2002
+    "year": 2002,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Harry Potter e o Prisioneiro de Azkaban",
@@ -123,7 +133,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 22m",
-    "year": 2004
+    "year": 2004,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Harry Potter e o Cálice de Fogo",
@@ -131,7 +142,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 33m",
-    "year": 2005
+    "year": 2005,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Harry Potter e a Ordem da Fênix",
@@ -139,7 +151,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 33m",
-    "year": 2007
+    "year": 2007,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Harry Potter e o Enigma do Príncipe",
@@ -147,7 +160,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 33m",
-    "year": 2009
+    "year": 2009,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Harry Potter e as Relíquias da Morte: Parte 1",
@@ -155,7 +169,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 33m",
-    "year": 2010
+    "year": 2010,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Harry Potter e as Relíquias da Morte: Parte 2",
@@ -163,7 +178,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 33m",
-    "year": 2011
+    "year": 2011,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "O Senhor dos Anéis: A Sociedade do Anel",
@@ -171,7 +187,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 58m",
-    "year": 2001
+    "year": 2001,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "O Senhor dos Anéis: As Duas Torres",
@@ -179,7 +196,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "2h 59m",
-    "year": 2002
+    "year": 2002,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "O Senhor dos Anéis: O Retorno do Rei",
@@ -187,7 +205,8 @@
     "genre_id": 2,
     "parental_rating": "Livre",
     "duration": "3h 21m",
-    "year": 2003
+    "year": 2003,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "O Poderoso Chefão",
@@ -195,7 +214,8 @@
     "genre_id": 3,
     "parental_rating": "16 anos",
     "duration": "2h 55m",
-    "year": 1972
+    "year": 1972,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "O Poderoso Chefão: Parte II",
@@ -203,7 +223,8 @@
     "genre_id": 3,
     "parental_rating": "16 anos",
     "duration": "3h 22m",
-    "year": 1974
+    "year": 1974,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "O Poderoso Chefão: Parte III",
@@ -211,11 +232,13 @@
     "genre_id": 3,
     "parental_rating": "16 anos",
     "duration": "2h 55m",
-    "year": 1990
+    "year": 1990,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   }
 ]
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 [
   {
     "title": "Breaking Bad",
@@ -223,7 +246,8 @@
     "genre_id": 4,
     "parental_rating": "16 anos",
     "year": 2008,
-    "season_quantity": 5
+    "season_quantity": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Game of Thrones",
@@ -231,7 +255,8 @@
     "genre_id": 4,
     "parental_rating": "16 anos",
     "year": 2011,
-    "season_quantity": 7
+    "season_quantity": 7,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "The Walking Dead",
@@ -239,7 +264,8 @@
     "genre_id": 4,
     "parental_rating": "16 anos",
     "year": 2010,
-    "season_quantity": 8
+    "season_quantity": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "The Big Bang Theory",
@@ -247,7 +273,8 @@
     "genre_id": 4,
     "parental_rating": "10 anos",
     "year": 2007,
-    "season_quantity": 11
+    "season_quantity": 11,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "How I Met Your Mother",
@@ -255,7 +282,8 @@
     "genre_id": 4,
     "parental_rating": "10 anos",
     "year": 2005,
-    "season_quantity": 9
+    "season_quantity": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "The Office",
@@ -263,7 +291,8 @@
     "genre_id": 4,
     "parental_rating": "12 anos",
     "year": 2005,
-    "season_quantity": 9
+    "season_quantity": 9,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "The Flash",
@@ -271,7 +300,8 @@
     "genre_id": 4,
     "parental_rating": "12 anos",
     "year": 2014,
-    "season_quantity": 4
+    "season_quantity": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "Arrow",
@@ -279,7 +309,8 @@
     "genre_id": 4,
     "parental_rating": "12 anos",
     "year": 2012,
-    "season_quantity": 6
+    "season_quantity": 6,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   },
   {
     "title": "Supernatural",
@@ -287,7 +318,8 @@
     "genre_id": 4,
     "parental_rating": "12 anos",
     "year": 2005,
-    "season_quantity": 13
+    "season_quantity": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
     "title": "The 100",
@@ -295,3577 +327,4173 @@
     "genre_id": 4,
     "parental_rating": "12 anos",
     "year": 2014,
-    "season_quantity": 5
+    "season_quantity": 5,
+    "image": "https://media.fstatic.com/CMoeuuM7RLlku4e9ydLiB1YNiFE=/210x312/smart/media/movies/covers/2017/07/MPW-45583.jpg"
   }
 ]
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 [
   {
-    "title":"Pilot",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":1
+    "title": "Pilot",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Cat's in the Bag...",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":1
+    "title": "Cat's in the Bag...",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"...And the Bag's in the River",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":1
+    "title": "...And the Bag's in the River",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Gray Matter",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":1
+    "title": "Gray Matter",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Crazy Handful of Nothin",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":1
+    "title": "Crazy Handful of Nothin",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"A No-Rough-Stuff-Type Deal",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":1
+    "title": "A No-Rough-Stuff-Type Deal",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Seven Thirty-Seven",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":2
+    "title": "Seven Thirty-Seven",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Grilled",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":2
+    "title": "Grilled",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Bit by a Dead Bee",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":2
+    "title": "Bit by a Dead Bee",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Down",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":2
+    "title": "Down",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breakage",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":2
+    "title": "Breakage",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Peekaboo",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":2
+    "title": "Peekaboo",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"No Más",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":3
+    "title": "No Más",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Caballo sin Nombre",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":3
+    "title": "Caballo sin Nombre",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"I.F.T.",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":3
+    "title": "I.F.T.",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Green Light",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":3
+    "title": "Green Light",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Mas",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":3
+    "title": "Mas",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sunset",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":3
+    "title": "Sunset",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Box Cutter",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":4
+    "title": "Box Cutter",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Thirty-Eight Snub",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":4
+    "title": "Thirty-Eight Snub",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Open House",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":4
+    "title": "Open House",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Bullet Points",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":4
+    "title": "Bullet Points",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Shotgun",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":4
+    "title": "Shotgun",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Cornered",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":4
+    "title": "Cornered",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Live Free or Die",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":5
+    "title": "Live Free or Die",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Madrigal",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":5
+    "title": "Madrigal",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Hazard Pay",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":5
+    "title": "Hazard Pay",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Say My Name",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":5
+    "title": "Say My Name",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Gliding Over All",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":5
+    "title": "Gliding Over All",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Blood Money",
-    "duration:":"45m",
-    "serie_id":1,
-    "season":5
+    "title": "Blood Money",
+    "duration": "45m",
+    "serie_id": 1,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Winter Is Coming",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":1
+    "title": "Winter Is Coming",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Lord Snow",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":1
+    "title": "Lord Snow",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Cripples, Bastards, and Broken Things",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":1
+    "title": "Cripples, Bastards, and Broken Things",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wolf and the Lion",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":1
+    "title": "The Wolf and the Lion",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"A Golden Crown",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":1
+    "title": "A Golden Crown",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"You Win or You Die",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":2
+    "title": "You Win or You Die",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Pointy End",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":2
+    "title": "The Pointy End",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Baelor",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":2
+    "title": "Baelor",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Fire and Blood",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":2
+    "title": "Fire and Blood",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The North Remembers",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":2
+    "title": "The North Remembers",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Night Lands",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":2
+    "title": "The Night Lands",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Valar Dohaeris",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":3
+    "title": "Valar Dohaeris",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
+
   {
-    "title":"Dark Wings, Dark Words",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":3
+    "title": "Dark Wings, Dark Words",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Walk of Punishment",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":3
+    "title": "Walk of Punishment",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"And Now His Watch Is Ended",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":3
+    "title": "And Now His Watch Is Ended",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Kissed by Fire",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":3
+    "title": "Kissed by Fire",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Climb",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":3
+    "title": "The Climb",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Two Swords",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":4
+    "title": "Two Swords",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Lion and the Rose",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":4
+    "title": "The Lion and the Rose",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":5
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":5
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":5
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":5
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Gliding Over All",
-    "duration:":"45m",
-    "serie_id":2,
-    "season":5
+    "title": "Gliding Over All",
+    "duration": "45m",
+    "serie_id": 2,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Blood Money",
-    "duration:":"45m",
-    "serie_id":2,
-    "season":5
+    "title": "Blood Money",
+    "duration": "45m",
+    "serie_id": 2,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Winter Is Coming",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "Winter Is Coming",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":7
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":7
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":7
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":7
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":7
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":7
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":7
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":2,
-    "season":7
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 2,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":1
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":1
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":1
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":1
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":1
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":1
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":1
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":2
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":2
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":2
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":2
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":2
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":2
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":2
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":2
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":3
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":3
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":3
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":3
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":3
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":3
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":3
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":3
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":4
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":4
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":4
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":5
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":5
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":5
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":5
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":5
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":5
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":5
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":5
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":6
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":6
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":6
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":6
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":6
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":6
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":6
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":7
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":7
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":7
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":7
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":7
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":7
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":7
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":7
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":8
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":8
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":8
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":8
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":8
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":8
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":8
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":3,
-    "season":8
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 3,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":1
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":1
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":1
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":1
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":1
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":1
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":1
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":2
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":2
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":2
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":2
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":2
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":2
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":2
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":2
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":3
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":3
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":3
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":3
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":3
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":3
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":5
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":5
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":5
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":5
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":5
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":5
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":5
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":5
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":6
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":6
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":6
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":6
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":6
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":6
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":6
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":7
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":7
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":7
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
+
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":7
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":7
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":7
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":7
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":7
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":8
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":8
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":8
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":8
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":8
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":8
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":8
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":8
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":9
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":9
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":9
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":9
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":9
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":9
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":9
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":9
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":10
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":10
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":10
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":10
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":10
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":10
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":10
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":10
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":11
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":11
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":11
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":11
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":11
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":11
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":11
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":4,
-    "season":11
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 4,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":1
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":1
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":1
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":1
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":1
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":1
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":1
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":2
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":2
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":2
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":2
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":2
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":2
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":2
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":2
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":3
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":3
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":3
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":3
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":3
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":3
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":5
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":5
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":5
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":5
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":5
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":5
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":5
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":5
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":6
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":6
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":6
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":6
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":6
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":6
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":6
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":7
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":7
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":7
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":7
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":7
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":7
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":7
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":7
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":8
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":8
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":8
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":8
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":8
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":8
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":8
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":8
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":9
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":9
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":9
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":9
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":9
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":9
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":5,
-    "season":9
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 5,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":1
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":1
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":1
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":1
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":1
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":1
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":1
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":2
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":2
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":2
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":2
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":2
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":2
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":2
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":2
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":3
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":3
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":3
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":3
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":3
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":3
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":5
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":5
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":5
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":5
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":5
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":5
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":5
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":7
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":7
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":7
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":7
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":7
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":7
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":7
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":7
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":8
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":8
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":8
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":8
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":8
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":8
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":8
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":8
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":9
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":9
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":9
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":9
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":9
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":9
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":6,
-    "season":9
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 6,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":1
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":1
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":1
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":1
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":1
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":1
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":1
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":2
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":2
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":2
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":2
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":2
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":2
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":2
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":2
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":3
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":3
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":3
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":3
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":3
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":3
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":7,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 7,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":1
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":1
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":1
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":1
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":1
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":1
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":1
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":2
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":2
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":2
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":2
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":2
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":2
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":2
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":2
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":3
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":3
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":3
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":3
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":3
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":3
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":5
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":5
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":5
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":5
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":5
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":5
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":5
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
+  
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":8,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 8,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":1
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":1
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":1
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":1
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":1
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":1
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":1
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":2
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":2
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":2
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":2
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":2
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":2
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":2
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":2
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":3
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":3
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":3
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":3
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":3
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":3
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":5
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":5
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":5
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":5
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":5
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":5
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":5
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":5
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":6
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":6
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":6
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":6
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":6
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":6
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":6
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":6
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 6,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":7
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":7
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":7
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":7
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":7
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":7
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":7
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":7
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 7,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":8
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":8
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":8
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":8
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":8
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":8
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":8
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":8
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 8,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":9
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":9
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":9
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":9
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":9
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":9
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":9
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":9
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 9,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":10
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":10
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":10
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":10
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":10
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":10
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":10
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":10
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 10,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":11
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":11
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":11
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":11
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":11
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":11
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":11
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":11
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 11,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":12
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 12,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":12
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 12,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":12
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 12,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":12
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 12,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":12
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 12,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":12
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 12,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":12
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 12,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":12
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 12,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":13
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":13
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":13
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":13
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":13
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":13
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":13
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":9,
-    "season":13
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 9,
+    "season": 13,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":1
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":1
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":1
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":1
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":1
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":1
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":1
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":1
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 1,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":2
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":2
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":2
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":2
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":2
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":2
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":2
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":2
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 2,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":3
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":3
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":3
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":3
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":3
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":3
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 3,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":4
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 4,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Kingsroad",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":5
+    "title": "The Kingsroad",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Breaker of Chains",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":5
+    "title": "Breaker of Chains",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Oathkeeper",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":5
+    "title": "Oathkeeper",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"First of His Name",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":5
+    "title": "First of His Name",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The Wars to Come",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":5
+    "title": "The Wars to Come",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"The House of Black and White",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":5
+    "title": "The House of Black and White",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"High Sparrow",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":5
+    "title": "High Sparrow",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   },
   {
-    "title":"Sons of the Harpy",
-    "duration:":"60m",
-    "serie_id":10,
-    "season":5
+    "title": "Sons of the Harpy",
+    "duration": "60m",
+    "serie_id": 10,
+    "season": 5,
+    "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
   }
 ]
-
-
-

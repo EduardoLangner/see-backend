@@ -9,6 +9,7 @@ class Movie extends Model {
             parental_rating: DataTypes.STRING,
             duration: DataTypes.STRING,
             year: DataTypes.INTEGER,
+            image: DataTypes.STRING,
         }, {
             sequelize
         })

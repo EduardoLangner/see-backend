@@ -1,5 +1,5 @@
 const express = require('express')
-const EpisodeController = require('../controllers/EpisodeController')
+const EpisodeController = require('../controllers/episodeController')
 const routes = express.Router()
 
 routes.post('/insertEpisode', EpisodeController.store)

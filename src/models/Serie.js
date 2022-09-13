@@ -9,6 +9,7 @@ class Serie extends Model {
             parental_rating: DataTypes.STRING,
             year: DataTypes.INTEGER,
             season_quantity: DataTypes.INTEGER,
+            image: DataTypes.STRING,
         }, {
             sequelize
         })

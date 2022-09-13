@@ -1,5 +1,5 @@
 const express = require('express')
-const GenreController = require('../controllers/GenreController')
+const GenreController = require('../controllers/genreController')
 const routes = express.Router()
 
 routes.post('/insertGenre', GenreController.store)
