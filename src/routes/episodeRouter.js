@@ -2,8 +2,8 @@ const express = require('express')
 const EpisodeController = require('../controllers/episodeController')
 const routes = express.Router()
 
-routes.post('/insertEpisode', EpisodeController.store)
-routes.get('/episodios', EpisodeController.index)
-routes.delete('/deleteEpisode/:id', EpisodeController.deleteEpisodeId)
+routes.post('/insertEpisode', EpisodeController.postEpisode)
+routes.get('/episodios', EpisodeController.getEpisode)
+routes.delete('/deleteEpisode/:id', EpisodeController.deleteEpisodeById)
 
 module.exports = routes

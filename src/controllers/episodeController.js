@@ -2,17 +2,17 @@ const Episode = require('../models/Episode')
 
 module.exports = {
 
-    async index(req, res) {
+    async getEpisode(req, res) {
         const episode = await Episode.findAll()
         return res.json(episode)
     },
 
-    async store(req, res) {
+    async postEpisode(req, res) {
         const episode = await Episode.bulkCreate(req.body)
         return res.json(episode)
     },
 
-    async deleteEpisodeId(req, res) {
+    async deleteEpisodeById(req, res) {
         const {id} = req.params
         const episode = await Episode.findByPk(id)
         await episode.destroy()
