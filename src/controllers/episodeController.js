@@ -7,6 +7,16 @@ module.exports = {
         return res.json(episode)
     },
 
+    async getEpisodeBySerie(req, res) {
+        const id = req.params.id
+        const episode = await Episode.findAll({
+            where: {
+                serie_id: id
+            }
+        })
+        return res.json(episode)
+    },
+
     async postEpisode(req, res) {
         const episode = await Episode.bulkCreate(req.body)
         return res.json(episode)
