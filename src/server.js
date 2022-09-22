@@ -5,4 +5,3 @@ const server = http.createServer(app)
 server.listen(port)
 
 console.log(`\nServer running on port ${port}`)
-

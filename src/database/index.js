@@ -13,4 +13,6 @@ Movie.init(connection)
 Serie.init(connection)
 Episode.init(connection)
 
+console.log('\nDatabase connection successful!')
+
 module.exports = connection

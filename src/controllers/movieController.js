@@ -18,4 +18,5 @@ module.exports = {
         await movie.destroy()
         return res.json(movie)
     },
+    
 }
