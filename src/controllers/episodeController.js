@@ -3,29 +3,45 @@ const Episode = require('../models/Episode')
 module.exports = {
 
     async getEpisode(req, res) {
-        const episode = await Episode.findAll()
-        return res.json(episode)
+        try{
+            const episode = await Episode.findAll()
+            return res.status(200).json(episode)
+        }catch(error){
+            return res.status(400).json({error: 'Error to get episodes'})
+        }
     },
 
     async getEpisodeBySerie(req, res) {
-        const id = req.params.id
-        const episode = await Episode.findAll({
-            where: {
-                serie_id: id
-            }
-        })
-        return res.json(episode)
+        try{
+            const id = req.params.id
+            const episode = await Episode.findAll({
+                where: {
+                    serie_id: id
+                }
+            })
+            return res.status(200).json(episode)
+        }catch(error){
+            return res.status(400).json({error: 'Error to get episodes'})
+        }
     },
 
     async postEpisode(req, res) {
-        const episode = await Episode.bulkCreate(req.body)
-        return res.json(episode)
+        try{
+            const episode = await Episode.bulkCreate(req.body)
+            return res.status(200).json(episode)
+        }catch(error){
+            return res.status(400).json({error: 'Error to create episode'})
+        }
     },
 
     async deleteEpisodeById(req, res) {
-        const {id} = req.params
-        const episode = await Episode.findByPk(id)
-        await episode.destroy()
-        return res.json(episode)
+        try{
+            const {id} = req.params
+            const episode = await Episode.findByPk(id)
+            await episode.destroy()
+            return res.status(200).json(episode)
+        }catch(error){
+            return res.status(400).json({error: 'Error to delete episode'})
+        }
     },
 }

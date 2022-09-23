@@ -40,5 +40,4 @@ describe('testando meu app', () => {
         expect(typeof response.body).toBe('object')
         console.log(response)
     })
-
 })

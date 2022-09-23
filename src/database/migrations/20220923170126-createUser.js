@@ -2,7 +2,7 @@
 
 module.exports = {
   async up (queryInterface, Sequelize) {
-    return queryInterface.createTable('series', {
+    return queryInterface.createTable('users', {
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
@@ -10,40 +10,23 @@ module.exports = {
         allowNull: false,
       },
 
-      title: {
+      name: {
         type: Sequelize.STRING, 
         allowNull: false,
       }, 
 
-      description: {
-        type: Sequelize.STRING(1000), 
-        allowNull: false,
-      }, 
-
-      genre_id: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        references: { model: 'genres', key: 'id' },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
-      },
-
-      parental_rating: {
+      last_name: {
         type: Sequelize.STRING,
-        allowNull: false, 
-      },
-
-      year: {
-        type: Sequelize.INTEGER,
         allowNull: false,
       },
 
-      season_quantity: {
-        type: Sequelize.INTEGER,
+      email: {
+        type: Sequelize.STRING,
         allowNull: false,
+        unique: true,
       },
 
-      image: {
+      password: {
         type: Sequelize.STRING,
         allowNull: false,
       },
@@ -57,10 +40,10 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false,
       },
-    })
+    });
   },
 
   async down (queryInterface, Sequelize) {
     
   }
-}
+};
