@@ -4516,3 +4516,36 @@
     "image": "https://occ.a.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfdDJgkslrDXt5Vm9GOEAOV-rohwxDpUp97gyphcSQcc6qPyhrmRgKdvDNyrOCs6DxJWmcX66YW47TmRBBbTj4Ph0Kr_2wsSoa4l.jpg?r=fd9"
   }
 ]
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[
+  {
+    "name": "Eduardo",
+    "last_name": "Langner",
+    "email":"dudu@gmail.com",
+    "password": "123456"
+  },
+
+  {
+    "name": "Eduarda",
+    "last_name": "Guadagnin",
+    "email":"duda@gmail.com",
+    "password": "123456"
+  }
+]
+
+async loginUser(req, res) {
+        try{
+            const {email, password} = req.body
+            const user = await User.findOne({where: {email: email}})
+            if(user.password === password){
+                return res.status(200).json(user)
+            }else{
+                return res.status(405).json({error: 'Email or password incorrect'})
+            }
+        }catch(error){
+            return res.status(400).json({error: 'Error to login'})
+        }
+    }
