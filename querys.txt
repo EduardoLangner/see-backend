@@ -4524,14 +4524,13 @@
   {
     "name": "Eduardo",
     "last_name": "Langner",
-    "email":"dudu@gmail.com",
+    "email": "dudu@gmail.com",
     "password": "123456"
   },
-
   {
     "name": "Eduarda",
     "last_name": "Guadagnin",
-    "email":"duda@gmail.com",
+    "email": "duda@gmail.com",
     "password": "123456"
   }
 ]

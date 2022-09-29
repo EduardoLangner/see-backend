@@ -1,10 +1,10 @@
 const express = require('express')
 const EpisodeController = require('../controllers/episodeController')
-const routes = express.Router()
+const router = express.Router()
 
-routes.post('/insertEpisode', EpisodeController.postEpisode) 
-routes.get('/episodios', EpisodeController.getEpisode)
-routes.get('/episodios/:id', EpisodeController.getEpisodeBySerie)
-routes.delete('/deleteEpisode/:id', EpisodeController.deleteEpisodeById)
+router.post('/insertEpisode', EpisodeController.postEpisode) 
+router.get('/episodios', EpisodeController.getEpisode)
+router.get('/episodios/:id', EpisodeController.getEpisodeBySerie)
+router.delete('/deleteEpisode/:id', EpisodeController.deleteEpisodeById)
 
-module.exports = routes
+module.exports = router

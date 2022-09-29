@@ -8,6 +8,7 @@ const movieRouter = require('./routes/movieRouter')
 const serieRouter = require('./routes/serieRouter')
 const episodeRouter = require('./routes/episodeRouter')
 const userRouter = require('./routes/userRouter')
+const loginRouter = require('./routes/loginRouter')
 
 require('./database/index')
 
@@ -27,5 +28,6 @@ app.use(movieRouter)
 app.use(serieRouter)
 app.use(episodeRouter)
 app.use(userRouter)
+app.use(loginRouter)
 
 module.exports = app                      

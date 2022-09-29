@@ -1,9 +1,9 @@
 const express = require('express')
 const SerieController = require('../controllers/serieController')
-const routes = express.Router()
+const router = express.Router()
 
-routes.post('/insertSerie', SerieController.postSerie)
-routes.get('/series', SerieController.getSerie)
-routes.delete('/deleteSerie/:id', SerieController.deleteSerieById)
+router.post('/insertSerie', SerieController.postSerie)
+router.get('/series', SerieController.getSerie)
+router.delete('/deleteSerie/:id', SerieController.deleteSerieById)
 
-module.exports = routes
+module.exports = router

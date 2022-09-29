@@ -1,4 +1,6 @@
 const User = require('../models/User')
+const jwt = require('jsonwebtoken')
+const bcrypt = require('bcrypt')
 
 module.exports = {
 
@@ -26,22 +28,42 @@ module.exports = {
             const {id} = req.params
             const user = await User.findByPk(id)
             await user.destroy()
-            return res.status(200).json(user)
+            return res.status(200).json({message: 'Deleted user:', user})
         }catch(error){
             return res.status(400).json({error: 'Error to delete user'})
         }
     },
     
-    async createUser(req, res) {
+    async insertUser(req, res) {
         try{
-            const user = await User.create(req.body)
-            return res.status(200).json(user)
+            const {name, last_name, email, password} = req.body
+            const hash = bcrypt.hashSync(password, 10)
+            const user = await User.create({name, last_name, email, password: hash})
+            const token = jwt.sign({id: user.id}, process.env.JWT_SECRET, {expiresIn: '1d'})
+            console.log(`\nHASH: ${hash}\n`)
+            return res.status(200).json({
+                message: 'User created successfully',
+                user,
+                token: token
+            })
         }catch(error){
             if(error.name === 'SequelizeUniqueConstraintError'){
             return res.status(400).json({error: 'Email already exists'})
             }else{
             return res.status(400).json({error: 'Error to create user'})
             }
+        }
+    },
+
+    async updateUser(req, res) {
+        try{
+            const {id} = req.params
+            const {name, last_name, email, password} = req.body
+            const user = await User.findByPk(id)
+            await user.update({name, last_name, email, password})
+            return res.status(200).json({message: 'Updated user:', user})
+        }catch(error){
+            return res.status(400).json({error: 'Error to update user'})
         }
     }
 }
