@@ -4534,17 +4534,3 @@
     "password": "123456"
   }
 ]
-
-async loginUser(req, res) {
-        try{
-            const {email, password} = req.body
-            const user = await User.findOne({where: {email: email}})
-            if(user.password === password){
-                return res.status(200).json(user)
-            }else{
-                return res.status(405).json({error: 'Email or password incorrect'})
-            }
-        }catch(error){
-            return res.status(400).json({error: 'Error to login'})
-        }
-    }
