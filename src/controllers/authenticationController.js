@@ -30,5 +30,22 @@ module.exports = {
         }catch(error){
            return res.status(400).json({error: 'Error to login'})
         }
+    },
+
+    async refreshToken(req, res) {
+        try{
+            const {token} = req.body
+            const decoded = jwt.verify(token, process.env.JWT_SECRET)
+            const user = await User.findOne({where: {id: decoded.id}})
+            const newToken = jwt.sign({id: user.id}, process.env.JWT_SECRET, {expiresIn: '1d'})
+            return res.status(200).json({
+                message: 'Refresh token successfully',
+                user,
+                token: newToken
+            })
+
+        }catch(error){
+            return res.status(401).json({error: 'Error to refresh token'})
+        }
     }
 }

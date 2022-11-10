@@ -11,31 +11,45 @@ describe('testando meu app', () => {
         expect(response.status).toBe(200)
         expect(response.body).toHaveProperty('message')
         console.log(response)
-    })
+    }),
     
     it('testando rota /generos', async () => {
         const response = await request(app).get('/generos')
         expect(response.status).toBe(200)
         expect(typeof response.body).toBe('object')
         console.log(response)
-    })
+    }),
 
     it('testando rota /filmes', async () => {
         const response = await request(app).get('/filmes')
         expect(response.status).toBe(200)
         expect(typeof response.body).toBe('object')
         console.log(response)
-    })
+    }),
 
     it('testando rota /series', async () => {
         const response = await request(app).get('/series')
         expect(response.status).toBe(200)
         expect(typeof response.body).toBe('object')
         console.log(response)
-    })
+    }),
 
     it('testando rota /episodios', async () => {
         const response = await request(app).get('/episodios')
+        expect(response.status).toBe(200)
+        expect(typeof response.body).toBe('object')
+        console.log(response)
+    }),
+
+    it('testando rota /users', async () => {
+        const response = await request(app).get('/users')
+        expect(response.status).toBe(200)
+        expect(typeof response.body).toBe('object')
+        console.log(response)
+    }),
+
+    it('testando rota /minhaLista', async () => {
+        const response = await request(app).get('/minhaLista')
         expect(response.status).toBe(200)
         expect(typeof response.body).toBe('object')
         console.log(response)
